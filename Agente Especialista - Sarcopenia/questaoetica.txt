@@ -1,0 +1,59 @@
+QUESTÃO ÉTICA — SISTEMA DE ANÁLISE DE SARCOPENIA
+
+O projeto tem como objetivo utilizar Machine Learning para analisar características físicas de participantes e identificar possíveis casos de sarcopenia. O sistema trabalha com informações como idade, sexo, massa muscular, força muscular e desempenho físico, utilizando esses dados para realizar classificações. Os principais interessados seriam pesquisadores e profissionais da saúde, enquanto as pessoas avaliadas seriam diretamente afetadas pelos resultados.
+
+**1. Privacidade e proteção dos dados**
+
+Uma das preocupações éticas envolve o tratamento de informações relacionadas à saúde. Embora o projeto utilize uma base de pesquisa pública, os dados analisados são sensíveis e precisam ser utilizados com responsabilidade.
+
+Uma medida importante é trabalhar apenas com as informações necessárias para a classificação, evitando dados que possam identificar diretamente os participantes. Caso o sistema futuramente receba informações de pacientes reais, será necessário estabelecer medidas de segurança, controle de acesso e proteção dos dados.
+
+**2. Viés e equidade**
+
+Outro problema é a possibilidade de o modelo apresentar resultados diferentes dependendo das características dos participantes. Como o treinamento utiliza uma base específica, os padrões aprendidos podem não representar adequadamente outras populações.
+
+Por exemplo, um modelo treinado com determinados perfis de idosos pode apresentar desempenho inferior quando utilizado com pessoas de características diferentes.
+
+Para reduzir esse risco, uma medida seria avaliar os resultados separadamente por grupos, como faixas etárias e sexo, verificando se existem diferenças relevantes nas taxas de erro. Também seria importante testar o modelo com outras bases de dados antes de considerar sua utilização em situações reais.
+
+**3. Transparência**
+
+As pessoas que utilizarem o sistema devem compreender que os resultados são produzidos por um modelo de inteligência artificial e que existe a possibilidade de erro.
+
+Uma forma de melhorar a transparência seria apresentar a classificação acompanhada de uma explicação sobre as características consideradas pelo modelo e suas limitações.
+
+O sistema não deve apresentar uma previsão como se fosse uma conclusão médica definitiva.
+
+**4. Supervisão e responsabilidade**
+
+A inteligência artificial não deve substituir a avaliação de profissionais da saúde. O modelo pode auxiliar na identificação de padrões, mas não possui capacidade para analisar sozinho todos os fatores clínicos necessários para um diagnóstico.
+
+Por isso, uma saída inadequada deve poder ser revisada, e os dados utilizados precisam ser conferidos. Em uma aplicação real, a interpretação do resultado deveria ficar sob responsabilidade de um profissional qualificado.
+
+**5. Impacto social**
+
+O sistema pode contribuir para pesquisas relacionadas à sarcopenia e, futuramente, auxiliar na identificação de pessoas que precisam de avaliação especializada.
+
+Entretanto, uma classificação incorreta pode causar consequências negativas. Um falso positivo pode gerar preocupação desnecessária, enquanto um falso negativo pode fazer com que uma pessoa com sinais de sarcopenia deixe de procurar uma avaliação adequada.
+
+Portanto, o benefício da tecnologia depende da qualidade dos dados, da confiabilidade dos modelos e da forma como os resultados são apresentados.
+
+**6. Dilema ético do projeto**
+
+O principal dilema ético é decidir se o sistema deve apresentar uma classificação diretamente ao usuário ou se esse resultado precisa passar por uma avaliação profissional antes de ser utilizado para orientar decisões relacionadas à saúde.
+
+A primeira alternativa seria disponibilizar o resultado automaticamente. Isso tornaria o sistema mais rápido e acessível, mas aumentaria o risco de a pessoa interpretar a classificação como um diagnóstico.
+
+A segunda alternativa seria apresentar o resultado apenas como uma estimativa de apoio, deixando claro que ele não substitui uma avaliação clínica. Essa abordagem limita a autonomia do sistema, mas reduz a possibilidade de decisões inadequadas baseadas exclusivamente na inteligência artificial.
+
+Considerando esses fatores, a segunda alternativa parece mais responsável, principalmente porque o projeto ainda se encontra em desenvolvimento e não passou por validação clínica.
+
+**7. Reflexão individual**
+
+Durante o desenvolvimento do projeto, percebi que não basta criar um modelo capaz de apresentar bons resultados estatísticos. Também é necessário considerar o que pode acontecer quando uma previsão está errada.
+
+Eu manteria a decisão de utilizar a inteligência artificial como ferramenta de apoio à análise, e não como substituta de um profissional da saúde. O argumento mais importante para essa escolha é que uma classificação incorreta pode influenciar decisões relacionadas ao bem-estar de uma pessoa.
+
+Para verificar se essa medida funciona, eu avaliaria a frequência de falsos positivos e falsos negativos, compararia o desempenho do modelo entre diferentes grupos de participantes e verificaria se a apresentação dos resultados deixa claras as limitações do sistema.
+
+Assim, acredito que a inteligência artificial pode contribuir para a área da saúde, desde que seja desenvolvida e utilizada com transparência, responsabilidade e supervisão humana.

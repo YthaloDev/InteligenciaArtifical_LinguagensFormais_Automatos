@@ -1,0 +1,27 @@
+DECLARAÇÃO DE USO DE INTELIGÊNCIA ARTIFICIAL
+
+Projeto: Sistema de Análise de Sarcopenia com Machine Learning
+
+**1. IA incorporada ao projeto**
+
+O projeto utiliza técnicas de Machine Learning para analisar informações de participantes e identificar padrões associados à presença de sarcopenia, uma condição relacionada à redução da força e da massa muscular.
+
+O sistema utiliza uma base pública com 1.253 registros, contendo informações como idade, sexo, massa muscular, peso, altura, força de preensão manual e desempenho físico. A partir desses dados, são treinados modelos de classificação, como Regressão Logística e Random Forest, para estimar se uma pessoa apresenta características associadas à sarcopenia.
+
+O funcionamento do sistema é avaliado por meio da separação dos dados em conjuntos de treinamento e teste e da utilização de métricas como precisão, recall e F1-score. Essas verificações permitem analisar a capacidade do modelo de reconhecer padrões e identificar possíveis erros de classificação.
+
+Entre as limitações do projeto estão a quantidade de dados disponíveis, a possibilidade de diferenças entre os participantes da base e a ocorrência de classificações incorretas. Além disso, como os dados utilizados não representam um acompanhamento dos mesmos participantes ao longo dos anos, o modelo ainda não permite prever de forma validada o desenvolvimento futuro da sarcopenia.
+
+Por esse motivo, o resultado deve ser considerado uma estimativa computacional, e não um diagnóstico médico. Qualquer utilização em uma avaliação real de saúde dependeria de validação adicional e revisão por um profissional qualificado.
+
+**2. IA utilizada na elaboração do trabalho**
+
+Durante o desenvolvimento do projeto, utilizei o ChatGPT, da OpenAI, como ferramenta de apoio para compreender conceitos de Machine Learning, identificar erros de programação, melhorar o tratamento dos dados e organizar a documentação do sistema.
+
+As sugestões foram analisadas e adaptadas de acordo com a proposta do projeto e com os conteúdos estudados na disciplina de Inteligência Artificial, Linguagens Formais e Autômatos.
+
+A ferramenta também auxiliou na elaboração e organização dos textos relacionados à documentação e à análise ética do trabalho.
+
+Reconheço que a IA generativa pode produzir informações incorretas ou sugestões inadequadas. Por isso, as orientações recebidas precisam ser conferidas com o funcionamento do código, com os resultados dos testes e com as fontes utilizadas.
+
+Assumo a responsabilidade pelas decisões tomadas durante o desenvolvimento, pelas verificações realizadas e pelo conteúdo apresentado na entrega.
